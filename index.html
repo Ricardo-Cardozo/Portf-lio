@@ -1,0 +1,388 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    <link rel="icon" type="image/png" sizes="16x16" href="./assets/img/favicon-16x16.png">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+    <title>Ricardo Cardozo Dev</title>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="logo"> <a href="#"><span>👾</span>RICARDO<strong>DEV</strong></a></div>
+            <div class="mobile-menu">
+                <div class="line1"></div>
+                <div class="line2"></div>
+                <div class="line3"></div>
+            </div>
+            <ul class="links">
+                <li><a href="#Home">Home</a></li>
+                <li><a href="#About" onclick="">About</a></li>
+                <li><a href="#Tech">Technologies</a></li>
+                <li><a href="#Projects">Projects</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div id="modal-mern">
+        <div class="modal-container">
+            <img src="./assets/img/certificadoMern.jpg" alt="Foto do certificado" class="modal-img">
+            <button id="modal-close-mern">Close</button>
+        </div>
+    </div>
+    <div id="modal-node">
+        <div class="modal-container">
+            <img src="./assets/img/CertificadoNode.jpg" alt="Foto do certificado" class="modal-img">
+            <button id="modal-close-node">Close</button>
+        </div>
+    </div>
+    <div id="modal-react">
+        <div class="modal-container">
+            <img src="./assets/img/certificadoReact.jpg" alt="Foto do certificado" class="modal-img">
+            <button id="modal-close-react">Close</button>
+        </div>
+    </div>
+    <div class="container">
+        <div class="home-container">
+            <section class="anime" id="Home">
+                <div class="home-content">
+                    <div id="div-img"></div>
+                    <div>
+                        <div class="title-home" id="text">
+                            <h1></h1>
+                        </div>
+                        <div class="desc-home">
+                            <p>Software Developer and student based in Joinville, Brazil.
+                                Available for entry-level positions
+                            </p>
+                        </div>
+                        <div class="home-link">
+                            <div class="link-linkedin">
+                                <a href="https://www.linkedin.com/in/ricardo-cardozo-248b08243/">Message me on
+                                    Linkedin</a>
+                            </div>
+                            <div class="link-download">
+                                <a style="cursor: pointer;" id="download-button">Download CV</a>
+                                <!-- <button id="download-button">Download CV</button> -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+        <div class="home-container">
+            <section class="anime" id="About">
+                <div class="about-content">
+                    <div class="about-title">
+                        <h1>About Me</h1>
+                    </div>
+                    <div class="desc-about">
+                        As a student pursuing a degree in Software Engineering and with 23 years of age, I embarked on
+                        my programming journey at the age of 17 and have since then been dedicated to the acquisition of
+                        knowledge and the learning of new technologies. My hobbies include both playing musical
+                        instruments and developing software applications. This portfolio, which you are currently
+                        viewing, was crafted without the use of any frameworks as an illustration of my skills as a
+                        frontend developer. On this website, you will find a collection of fullstack projects utilizing
+                        various technologies. Furthermore, I invite you to visit my GitHub page, where you can access
+                        all of my projects, which I am constantly updating, including this portfolio. I am excited to
+                        share my journey as I continue to grow and develop my skills, and I invite you to follow along.
+                    </div>
+                </div>
+            </section>
+        </div>
+        <div class="tech-container">
+            <div class="home-container">
+                <section class="anime" id="Tech">
+                    <div class="about-title">
+                        <h1>Current Stack</h1>
+                    </div>
+                    <div class="tech-content">
+                        <div>
+                            <div class="tech-img">
+                                <img src="./assets/img/react-banner.png" alt="ReactJS">
+                            </div>
+                            <div class="link-certif">
+                                <a id="open-modal-react">Certificate</a>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="tech-img">
+                                <img src="./assets/img/mern.png" width="350" height="220" alt="MongoDB">
+                            </div>
+                            <div class="link-certif">
+                                <a id="open-modal-mern">Certificate</a>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="tech-img">
+                                <img src="./assets/img/node.png" alt="NodeJS">
+                            </div>
+                            <div class="link-certif">
+                                <a class="open-modal-node">Certificate</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="desc-tech">
+                        I possess knowledge in <span style="color: #3bf5d2;">Node.js</span>, <span
+                            style="color: #3bf5d2;">MongoDB</span>, <span style="color: #3bf5d2;">SQL</span>, <span
+                            style="color: #3bf5d2;">React.js</span>,
+                        <span style="color: #3bf5d2;">Vue.js</span>, <span style="color: #3bf5d2;">CSS</span>, <span
+                            style="color: #3bf5d2;">HTML</span>, <span style="color: #3bf5d2;">JavaScript</span>, <span
+                            style="color: #3bf5d2;">Git</span>, and
+                        <span style="color: #3bf5d2;">GitHub</span>. I have demonstrated proficiency in these
+                        technologies through various projects, such as
+                        creating registration systems, implementing user authentication, and designing responsive
+                        navigations. Additionally, I am currently expanding my skillset by studying <span
+                            style="color: #3bf5d2;">TypeScript</span> with <span style="color: #3bf5d2;">Node.js</span>
+                        and <span style="color: #3bf5d2;">React.js</span>. You can view a selection of my work in these
+                        technologies on my <span style="color: #3bf5d2;">GitHub</span>
+                        repositories.
+                    </div>
+                </section>
+            </div>
+        </div>
+        <div class="home-container">
+            <section class="anime" id="Projects">
+                <div class="about-title">
+                    <h1>My Projects</h1>
+                </div>
+                <div class="tech-content">
+                    <div class="card-project">
+                        <div class="image">
+                            <img src="./assets/img/thoughts.png" width="350" height="220" alt="NodeJS">
+                            <div class="image-overlay">
+                                <h3 class="image-title">Thoughts.js</h3>
+                                <p class="image-description">A FullStack project MERN (MongoDB, Express, React.js,
+                                    Node.js), this project simulates a virtual notebook</p>
+                            </div>
+                        </div>
+                        <div class="link-project">
+                            <div>
+                                <a href="https://front-thoughts.onrender.com/">Live Demo</a>
+                            </div>
+                            <div class="git">
+                                <a href="https://github.com/Ricardo-Cardozo/Backend-Thoughts">GitHub</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card-project">
+                        <div class="image">
+                            <img src="./assets/img/make-your-burger.png" width="350" height="220" alt="NodeJS">
+                            <div class="image-overlay">
+                                <h3 class="image-title">Make your burger</h3>
+                                <p class="image-description">A project developed with Vue.js and json-server to simulate
+                                    requests with an api</p>
+                            </div>
+                        </div>
+                        <div class="link-project">
+                            <div>
+                                <a href="https://make-your-hamburguer.vercel.app/">Live Demo</a>
+                            </div>
+                            <div class="git">
+                                <a href="https://github.com/Ricardo-Cardozo/Make-your-Hamburguer">GitHub</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card-project">
+                        <div class="image">
+                            <img src="./assets/img/playdjs.png" width="350" height="220" alt="NodeJS">
+                            <div class="image-overlay">
+                                <h3 class="image-title">Play Dj's</h3>
+                                <p class="image-description">
+                                    A frontend project built with Next.js for enterprise portfolio</p>
+                            </div>
+                        </div>
+                        <div class="link-project">
+                            <div>
+                                <a href="https://play-djs-next-js.vercel.app/">Live Demo</a>
+                            </div>
+                            <div class="git">
+                                <a href="https://github.com/Ricardo-Cardozo/PlayDjs_NextJS">GitHub</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card-project">
+                        <div class="image">
+                            <img src="./assets/img/onepage-vue.png" width="350" height="220" alt="NodeJS">
+                            <div class="image-overlay">
+                                <h3 class="image-title">Vue onePage Layout</h3>
+                                <p class="image-description">Project developed with Vue.js to simulate a one page
+                                    application</p>
+                            </div>
+                        </div>
+                        <div class="link-project">
+                            <div>
+                                <a href="https://layout-vue-js.vercel.app/">Live Demo</a>
+                            </div>
+                            <div class="git">
+                                <a href="https://github.com/Ricardo-Cardozo/Layout-VUE.js">GitHub</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card-project">
+                        <div class="image">
+                            <img src="./assets/img/pokenext.png" width="350" height="220" alt="NodeJS">
+                            <div class="image-overlay">
+                                <h3 class="image-title">Poke Next</h3>
+                                <p class="image-description">Project developed with Next.js to represent requests with
+                                    an api in a server-side environment</p>
+                            </div>
+                        </div>
+                        <div class="link-project">
+                            <div>
+                                <a href="https://poke-next-ten.vercel.app/">Live Demo</a>
+                            </div>
+                            <div class="git">
+                                <a href="https://github.com/Ricardo-Cardozo/PokeNext">GitHub</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+        <footer>
+            <div>
+                <h1>Meet me on Social Media</h1>
+            </div>
+            <div class="span">
+                <span>
+                    <a href="https://github.com/Ricardo-Cardozo"><i class="bi bi-github"></i></a>
+                </span>
+                <span>
+                    <a href="https://www.linkedin.com/in/ricardo-cardozo-248b08243/"><i class="bi bi-linkedin"></i></a>
+                </span>
+                <div>
+                    <p>
+                        Created by <span>Ricardo Cardozo &copy; 2022 </span>
+                    </p>
+                </div>
+            </div>
+        </footer>
+    </div>
+    <script>
+        const openReact = document.getElementById("open-modal-react")
+        openReact.addEventListener("click", () => {
+            const modal = document.getElementById("modal-react")
+            modal.style.display = "block"
+        })
+        const closeReact = document.getElementById("modal-close-react");
+        closeReact.addEventListener("click", function () {
+            const modal = document.getElementById("modal-react");
+            modal.style.display = "none";
+        });
+    </script>
+    <script>
+        const openMern = document.querySelector(".open-modal-node")
+        openMern.addEventListener("click", () => {
+            const modal = document.getElementById("modal-node")
+            modal.style.display = "block"
+        })
+        const closeMern = document.getElementById("modal-close-node");
+        closeMern.addEventListener("click", function () {
+            const modal = document.getElementById("modal-node");
+            modal.style.display = "none";
+        });
+    </script>
+    <script>
+        const openModalButton = document.getElementById("open-modal-mern")
+        openModalButton.addEventListener("click", () => {
+            const modal = document.getElementById("modal-mern")
+            modal.style.display = "block"
+        })
+        const closeModalButton = document.getElementById("modal-close-mern");
+        closeModalButton.addEventListener("click", function () {
+            const modal = document.getElementById("modal-mern");
+            modal.style.display = "none";
+        });
+    </script>
+    <script>
+        const downloadButton = document.getElementById("download-button")
+        downloadButton.addEventListener("click", () => {
+            const link = document.createElement("a")
+            link.href = "./assets/cv/CertificadoNode.pdf"
+            link.download = "CertificadoNode.pdf"
+            link.click()
+        })
+    </script>
+    <script preload>
+        var i = 0;
+        var texto = "Hi, I'm Ricardo Cardozo..."
+        var H1 = document.getElementById('text')
+        function animacaoH1() {
+            if (i < texto.length) {
+                H1.innerHTML += texto.charAt(i)
+                i++
+                setTimeout(animacaoH1, 150)
+            } else {
+                H1.classList.add('sombra')
+            }
+        }
+        animacaoH1()
+    </script>
+    <script preload>
+        const menuItems = document.querySelectorAll('nav .links li a[href^="#"]')
+        menuItems.forEach(item => {
+            item.addEventListener('click', scrollToIdOnClick)
+        })
+        function scrollToIdOnClick(event) {
+            event.preventDefault()
+            const element = event.target
+            const id = element.getAttribute('href')
+            const to = document.querySelector(id).offsetTop
+            if (window.innerWidth < 800) {
+                window.scroll({
+                    top: to - 40,
+                    behavior: 'smooth'
+                })
+            } else {
+                window.scroll({
+                    top: to - 120,
+                    behavior: 'smooth'
+                })
+            }
+        }
+    </script>
+    <script preload>
+        class MobileNavbar {
+            constructor(mobileMenu, navList, navLinks) {
+                this.mobileMenu = document.querySelector(mobileMenu);
+                this.navList = document.querySelector(navList);
+                this.navLinks = document.querySelectorAll(navLinks);
+                this.activeClass = "active";
+                this.handleClick = this.handleClick.bind(this);
+            }
+            animateLinks() {
+                this.navLinks.forEach((link, index) => {
+                    link.style.animation
+                        ? (link.style.animation = "")
+                        : (link.style.animation = `navLinkFade 0.5s ease forwards ${index / 7 + 0.3}s`)
+                })
+            }
+            handleClick() {
+                this.animateLinks()
+                this.navList.classList.toggle(this.activeClass)
+                this.mobileMenu.classList.toggle(this.activeClass)
+            }
+            addClickEvent() {
+                this.mobileMenu.addEventListener('click', this.handleClick)
+            }
+            init() {
+                if (this.mobileMenu) {
+                    this.addClickEvent()
+                }
+                return this
+            }
+        }
+        const mobileNavbar = new MobileNavbar(".mobile-menu", "nav .links", ".links li")
+        mobileNavbar.init()
+    </script>
+</body>
+
+</html>
